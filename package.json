@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "date": "^2.0.5",
+    "express": "^4.19.2",
+    "fetch": "^1.1.0",
+    "gyp": "^0.3.0",
+    "koffi": "^2.8.8",
+    "node-notifier": "^10.0.1",
+    "uuid": "^9.0.1",
+    "yargs": "^17.7.2"
+  }
+}

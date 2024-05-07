@@ -1,4 +1,5 @@
-console.info("Welcome to SIBRD \n school ipad battery reporter daemon")
+console.info("Welcome to iBrd [Ai baa du](iBird) \n iPad battery reporter daemon")
+console.info("Formery known as Sibrd [Sigh Baa du]")
 
 const express = require('express')
 const app = new express();
@@ -110,7 +111,7 @@ app.get("/:batteryInfo", (req, res) => {
     if (batteryCharging == false || batteryCharging == null) {
         console.log(`The battery percentage is ${batteryPercent}%. Please charge the school iPad.`)
         res.send("200 ok")
-        MessageBoxW(null, `The battery percentage is ${batteryPercent}%. Please charge the school iPad.`, 'Sibrd - NOTIFICATION', MB_ICONINFORMATION);
+        MessageBoxW(null, `The battery percentage is ${batteryPercent}%. Please charge the school iPad.`, 'iBrd - NOTIFICATION', MB_ICONINFORMATION);
         //alert(`The battery percentage is ${batteryPercent}. Please charge the school iPad.`);
         //notify.notify(`The battery percentage is ${batteryPercent}. Please charge the school iPad.`)
     }
